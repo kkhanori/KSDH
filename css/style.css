@@ -1,30 +1,5 @@
-/* @font-face {
-      font-family: 'Plain-Regular';
-      src: url('../fonts/Plain-Regular.woff2') format('woff2'),
-          url('../fonts/Plain-Regular.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-  }
-
-  @font-face {
-      font-family: 'Plain-Light';
-      src: url('../fonts/Plain-Light.woff2') format('woff2'),
-          url('../fonts/Plain-Light.woff') format('woff');
-      font-weight: bold;
-      font-style: normal;
-  }
-
-  @font-face {
-      font-family: 'Plain-Bold';
-      src: url('../fonts/Plain-Bold.woff2') format('woff2'),
-          url('../fonts/Plain-Bold.woff') format('woff');
-      font-weight: bold;
-      font-style: normal;
-  } */
-
 :root {
   --primary-color: #b8dbda;
-  /* --secondary-color:      #A5DAA9; */
   --secondary-color: #198e88;
   --white-color: #ffffff;
   --dark-color: #444444;
@@ -33,13 +8,12 @@
 
   --title-color: #444444;
   --gray-color: #909090;
-  /* --link-color:           #404040; */
   --link-color: #198e88;
   --p-color: #666262;
 
-  --base-font-family: "Muli", sans-serif;
-  --title-font-family: "Mulish", sans-serif;
-  --font-bold-family: "Muli", sans-serif;
+  --base-font-family: "verdana", sans-serif;
+  --title-font-family: "verdana", sans-serif;
+  --font-bold-family: "verdana", sans-serif;
   --font-weight-bold: bold;
 
   --h1-font-size: 42px;
@@ -57,10 +31,6 @@ body {
   background: var(--white-color);
   font-family: var(--base-font-family);
 }
-
-/*---------------------------------------
-     TYPOGRAPHY              
-  -----------------------------------------*/
 
 h1,
 h2,
@@ -388,7 +358,7 @@ a:focus {
   height: auto;
 }
 .speakers-card {
-  height: 860px;
+  height: 200px;
 }
 .speaker {
   text-align: center;
@@ -436,7 +406,7 @@ a:focus {
 }
 @media screen and (min-width: 1500px) {
   .speakers-card {
-    height: 1000px;
+    height: auto;
   }
   .owl-theme .owl-dots .owl-dot span {
     width: 20px;
