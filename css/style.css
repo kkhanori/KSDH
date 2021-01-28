@@ -406,7 +406,7 @@ a:focus {
 }
 @media screen and (min-width: 1500px) {
   .speakers-card {
-    height: auto;
+    height: 250px;
   }
   .owl-theme .owl-dots .owl-dot span {
     width: 20px;
